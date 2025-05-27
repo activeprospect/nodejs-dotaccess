@@ -9,7 +9,9 @@
     "type": "git",
     "url": "https://github.com/daaku/nodejs-dotaccess"
   },
-  "scripts": { "test": "NODE_PATH=./lib mocha --ui exports" },
+  "scripts": {
+    "test": "NODE_PATH=./lib mocha --ui exports"
+  },
   "devDependencies": {
     "mocha": "^11.5.0"
   }
