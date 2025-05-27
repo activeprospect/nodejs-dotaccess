@@ -10,9 +10,17 @@
     "url": "https://github.com/daaku/nodejs-dotaccess"
   },
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "test": "NODE_PATH=./lib mocha --ui exports"
   },
   "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.6.0",
     "mocha": "^11.5.0"
   }
 }
